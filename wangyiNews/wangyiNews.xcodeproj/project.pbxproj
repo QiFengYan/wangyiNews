@@ -10,11 +10,26 @@
 		18988C701C44076100A08D42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18988C6F1C44076100A08D42 /* main.m */; };
 		18988C731C44076100A08D42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18988C721C44076100A08D42 /* AppDelegate.m */; };
 		18988C761C44076100A08D42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18988C751C44076100A08D42 /* ViewController.m */; };
-		18988C791C44076100A08D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18988C771C44076100A08D42 /* Main.storyboard */; };
 		18988C7B1C44076100A08D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18988C7A1C44076100A08D42 /* Assets.xcassets */; };
 		18988C7E1C44076100A08D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18988C7C1C44076100A08D42 /* LaunchScreen.storyboard */; };
 		18988C891C44076200A08D42 /* wangyiNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18988C881C44076200A08D42 /* wangyiNewsTests.m */; };
 		18988C941C44076200A08D42 /* wangyiNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18988C931C44076200A08D42 /* wangyiNewsUITests.m */; };
+		18988CA21C4409B800A08D42 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18988CA11C4409B800A08D42 /* News.storyboard */; };
+		18DE48A01C440C850048967A /* QFHeadLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE489F1C440C850048967A /* QFHeadLineController.m */; };
+		18DE48A31C440DC00048967A /* QFHeadLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE48A21C440DC00048967A /* QFHeadLineCell.m */; };
+		18DE48A61C440DE40048967A /* QFHeadNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE48A51C440DE40048967A /* QFHeadNew.m */; };
+		18DE48AB1C4414030048967A /* QFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE48AA1C4414030048967A /* QFTool.m */; };
+		18DE48AF1C4636BD0048967A /* QFNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE48AE1C4636BD0048967A /* QFNewsCell.m */; };
+		18DE48B21C4639DB0048967A /* QFContentNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE48B11C4639DB0048967A /* QFContentNews.m */; };
+		18DE48B51C4647C80048967A /* QFNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE48B41C4647C80048967A /* QFNewsController.m */; };
+		18DE48B81C4650280048967A /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE48B71C4650280048967A /* NSObject+Log.m */; };
+		18DE48BA1C46996F0048967A /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 18DE48B91C46996F0048967A /* topic_news.json */; };
+		18DE48BE1C4699DE0048967A /* QFNewsChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE48BD1C4699DE0048967A /* QFNewsChannel.m */; };
+		18DE48C11C469D290048967A /* QFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE48C01C469D290048967A /* QFHomeViewController.m */; };
+		18DE48C31C469D380048967A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE48C21C469D380048967A /* Home.storyboard */; };
+		18DE48C61C472CF50048967A /* QFChannelLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE48C51C472CF50048967A /* QFChannelLable.m */; };
+		18DE49081C4920DE0048967A /* QFChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE49071C4920DE0048967A /* QFChannelCell.m */; };
+		95125ADE0AF14A13E6A2CA1C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F19130A9138747EDB2D3C2C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02BC922662D6EC742F7BF1F8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		18988C6B1C44076100A08D42 /* wangyiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangyiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18988C6F1C44076100A08D42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18988C711C44076100A08D42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18988C721C44076100A08D42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18988C741C44076100A08D42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18988C751C44076100A08D42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18988C781C44076100A08D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18988C7A1C44076100A08D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18988C7D1C44076100A08D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18988C7F1C44076100A08D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +66,35 @@
 		18988C8F1C44076200A08D42 /* wangyiNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wangyiNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18988C931C44076200A08D42 /* wangyiNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wangyiNewsUITests.m; sourceTree = "<group>"; };
 		18988C951C44076200A08D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18988CA11C4409B800A08D42 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		18DE489E1C440C850048967A /* QFHeadLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFHeadLineController.h; sourceTree = "<group>"; };
+		18DE489F1C440C850048967A /* QFHeadLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFHeadLineController.m; sourceTree = "<group>"; };
+		18DE48A11C440DC00048967A /* QFHeadLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFHeadLineCell.h; sourceTree = "<group>"; };
+		18DE48A21C440DC00048967A /* QFHeadLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFHeadLineCell.m; sourceTree = "<group>"; };
+		18DE48A41C440DE40048967A /* QFHeadNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFHeadNew.h; sourceTree = "<group>"; };
+		18DE48A51C440DE40048967A /* QFHeadNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFHeadNew.m; sourceTree = "<group>"; };
+		18DE48A91C4414030048967A /* QFTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFTool.h; sourceTree = "<group>"; };
+		18DE48AA1C4414030048967A /* QFTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFTool.m; sourceTree = "<group>"; };
+		18DE48AD1C4636BD0048967A /* QFNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFNewsCell.h; sourceTree = "<group>"; };
+		18DE48AE1C4636BD0048967A /* QFNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFNewsCell.m; sourceTree = "<group>"; };
+		18DE48B01C4639DB0048967A /* QFContentNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFContentNews.h; sourceTree = "<group>"; };
+		18DE48B11C4639DB0048967A /* QFContentNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFContentNews.m; sourceTree = "<group>"; };
+		18DE48B31C4647C80048967A /* QFNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFNewsController.h; sourceTree = "<group>"; };
+		18DE48B41C4647C80048967A /* QFNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFNewsController.m; sourceTree = "<group>"; };
+		18DE48B61C4650280048967A /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		18DE48B71C4650280048967A /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		18DE48B91C46996F0048967A /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		18DE48BC1C4699DE0048967A /* QFNewsChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFNewsChannel.h; sourceTree = "<group>"; };
+		18DE48BD1C4699DE0048967A /* QFNewsChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFNewsChannel.m; sourceTree = "<group>"; };
+		18DE48BF1C469D290048967A /* QFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFHomeViewController.h; sourceTree = "<group>"; };
+		18DE48C01C469D290048967A /* QFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFHomeViewController.m; sourceTree = "<group>"; };
+		18DE48C21C469D380048967A /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		18DE48C41C472CF50048967A /* QFChannelLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFChannelLable.h; sourceTree = "<group>"; };
+		18DE48C51C472CF50048967A /* QFChannelLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFChannelLable.m; sourceTree = "<group>"; };
+		18DE49061C4920DE0048967A /* QFChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFChannelCell.h; sourceTree = "<group>"; };
+		18DE49071C4920DE0048967A /* QFChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFChannelCell.m; sourceTree = "<group>"; };
+		31FBB0C37E5F2AD3DBD441BF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8F19130A9138747EDB2D3C2C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95125ADE0AF14A13E6A2CA1C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +130,8 @@
 				18988C871C44076200A08D42 /* wangyiNewsTests */,
 				18988C921C44076200A08D42 /* wangyiNewsUITests */,
 				18988C6C1C44076100A08D42 /* Products */,
+				78D0988F0EFFAACCE4B6C4BD /* Pods */,
+				EB9A1E6D551D29DD62A5765A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +148,14 @@
 		18988C6D1C44076100A08D42 /* wangyiNews */ = {
 			isa = PBXGroup;
 			children = (
+				18DE48BB1C4699C30048967A /* Home */,
+				18DE48AC1C4636780048967A /* news */,
+				18DE48A81C4413EE0048967A /* Tool */,
+				18DE48A71C440DED0048967A /* HeadLine */,
 				18988C711C44076100A08D42 /* AppDelegate.h */,
 				18988C721C44076100A08D42 /* AppDelegate.m */,
 				18988C741C44076100A08D42 /* ViewController.h */,
 				18988C751C44076100A08D42 /* ViewController.m */,
-				18988C771C44076100A08D42 /* Main.storyboard */,
 				18988C7A1C44076100A08D42 /* Assets.xcassets */,
 				18988C7C1C44076100A08D42 /* LaunchScreen.storyboard */,
 				18988C7F1C44076100A08D42 /* Info.plist */,
@@ -117,6 +167,7 @@
 		18988C6E1C44076100A08D42 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18DE48B91C46996F0048967A /* topic_news.json */,
 				18988C6F1C44076100A08D42 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +191,77 @@
 			path = wangyiNewsUITests;
 			sourceTree = "<group>";
 		};
+		18DE48A71C440DED0048967A /* HeadLine */ = {
+			isa = PBXGroup;
+			children = (
+				18DE48A41C440DE40048967A /* QFHeadNew.h */,
+				18DE48A51C440DE40048967A /* QFHeadNew.m */,
+				18DE48A11C440DC00048967A /* QFHeadLineCell.h */,
+				18DE48A21C440DC00048967A /* QFHeadLineCell.m */,
+				18DE489E1C440C850048967A /* QFHeadLineController.h */,
+				18DE489F1C440C850048967A /* QFHeadLineController.m */,
+			);
+			name = HeadLine;
+			sourceTree = "<group>";
+		};
+		18DE48A81C4413EE0048967A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				18DE48B61C4650280048967A /* NSObject+Log.h */,
+				18DE48B71C4650280048967A /* NSObject+Log.m */,
+				18DE48A91C4414030048967A /* QFTool.h */,
+				18DE48AA1C4414030048967A /* QFTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		18DE48AC1C4636780048967A /* news */ = {
+			isa = PBXGroup;
+			children = (
+				18988CA11C4409B800A08D42 /* News.storyboard */,
+				18DE48AD1C4636BD0048967A /* QFNewsCell.h */,
+				18DE48AE1C4636BD0048967A /* QFNewsCell.m */,
+				18DE48B01C4639DB0048967A /* QFContentNews.h */,
+				18DE48B11C4639DB0048967A /* QFContentNews.m */,
+				18DE48B31C4647C80048967A /* QFNewsController.h */,
+				18DE48B41C4647C80048967A /* QFNewsController.m */,
+			);
+			name = news;
+			sourceTree = "<group>";
+		};
+		18DE48BB1C4699C30048967A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18DE48BC1C4699DE0048967A /* QFNewsChannel.h */,
+				18DE48BD1C4699DE0048967A /* QFNewsChannel.m */,
+				18DE48BF1C469D290048967A /* QFHomeViewController.h */,
+				18DE48C01C469D290048967A /* QFHomeViewController.m */,
+				18DE48C21C469D380048967A /* Home.storyboard */,
+				18DE48C41C472CF50048967A /* QFChannelLable.h */,
+				18DE48C51C472CF50048967A /* QFChannelLable.m */,
+				18DE49061C4920DE0048967A /* QFChannelCell.h */,
+				18DE49071C4920DE0048967A /* QFChannelCell.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		78D0988F0EFFAACCE4B6C4BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02BC922662D6EC742F7BF1F8 /* Pods.debug.xcconfig */,
+				31FBB0C37E5F2AD3DBD441BF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB9A1E6D551D29DD62A5765A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F19130A9138747EDB2D3C2C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18988C981C44076200A08D42 /* Build configuration list for PBXNativeTarget "wangyiNews" */;
 			buildPhases = (
+				5CA8AD6DC092B516FBCB5D25 /* Check Pods Manifest.lock */,
 				18988C671C44076100A08D42 /* Sources */,
 				18988C681C44076100A08D42 /* Frameworks */,
 				18988C691C44076100A08D42 /* Resources */,
+				F8977613DEC65319241F99DD /* Embed Pods Frameworks */,
+				8A3CD6EC89922F95BFEB57D1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +372,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18988C7E1C44076100A08D42 /* LaunchScreen.storyboard in Resources */,
+				18DE48C31C469D380048967A /* Home.storyboard in Resources */,
+				18988CA21C4409B800A08D42 /* News.storyboard in Resources */,
+				18DE48BA1C46996F0048967A /* topic_news.json in Resources */,
 				18988C7B1C44076100A08D42 /* Assets.xcassets in Resources */,
-				18988C791C44076100A08D42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +395,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CA8AD6DC092B516FBCB5D25 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3CD6EC89922F95BFEB57D1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8977613DEC65319241F99DD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18988C671C44076100A08D42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18988C761C44076100A08D42 /* ViewController.m in Sources */,
+				18DE48AB1C4414030048967A /* QFTool.m in Sources */,
 				18988C731C44076100A08D42 /* AppDelegate.m in Sources */,
+				18DE48BE1C4699DE0048967A /* QFNewsChannel.m in Sources */,
+				18DE48C11C469D290048967A /* QFHomeViewController.m in Sources */,
+				18DE48C61C472CF50048967A /* QFChannelLable.m in Sources */,
+				18DE48B51C4647C80048967A /* QFNewsController.m in Sources */,
+				18DE48AF1C4636BD0048967A /* QFNewsCell.m in Sources */,
+				18DE48A31C440DC00048967A /* QFHeadLineCell.m in Sources */,
+				18DE48A61C440DE40048967A /* QFHeadNew.m in Sources */,
+				18DE48B21C4639DB0048967A /* QFContentNews.m in Sources */,
+				18DE48A01C440C850048967A /* QFHeadLineController.m in Sources */,
 				18988C701C44076100A08D42 /* main.m in Sources */,
+				18DE48B81C4650280048967A /* NSObject+Log.m in Sources */,
+				18DE49081C4920DE0048967A /* QFChannelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +498,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18988C771C44076100A08D42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18988C781C44076100A08D42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18988C7C1C44076100A08D42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +591,7 @@
 		};
 		18988C991C44076200A08D42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02BC922662D6EC742F7BF1F8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wangyiNews/Info.plist;
@@ -423,6 +603,7 @@
 		};
 		18988C9A1C44076200A08D42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FBB0C37E5F2AD3DBD441BF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wangyiNews/Info.plist;
@@ -499,6 +680,7 @@
 				18988C9A1C44076200A08D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18988C9B1C44076200A08D42 /* Build configuration list for PBXNativeTarget "wangyiNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +689,7 @@
 				18988C9D1C44076200A08D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18988C9E1C44076200A08D42 /* Build configuration list for PBXNativeTarget "wangyiNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +698,7 @@
 				18988CA01C44076200A08D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
